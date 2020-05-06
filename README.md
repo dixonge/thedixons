@@ -1,4 +1,9 @@
-# MF Blog Starter
+# TheDixons.net
+## A Colonial Quaker Family
+
+
+
+### Using MF Blog Starter template
 
 [See Netlify Demo](https://mf-blogstarter.netlify.app/)
 
@@ -20,12 +25,3 @@ This blog starter uses and is built with:
 - Scripts optimised for production
 - Document `<head>` crafted using [htmlhead.dev](https://htmlhead.dev)
 
-## Performances
-
-[GTmetrix](https://gtmetrix.com/)
-
-![GTmetrix report](https://mf-blogstarter.netlify.app/assets/img/gtmetrix.png)
-
-[Google Measure](https://web.dev/measure/)
-
-![Lighthouse report](https://mf-blogstarter.netlify.app/assets/img/lighthouse.png)

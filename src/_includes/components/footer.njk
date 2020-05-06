@@ -2,13 +2,13 @@
 
   <div class="p-6 mx-auto overflow-hidden text-base measure">
     <div class="flex flex-wrap justify-center mt-2">
-      <div class="px-8">
+      <div class="px-4 lg:px-8">
         <a rel="external" href="{{ site.author.twitter }}">Twitter</a>
       </div>
-      <div class="px-8">
+      <div class="px-4 lg:px-8">
         <a rel="external" href="{{ site.author.github }}">GitHub</a>
       </div>
-      <div class="px-8">
+      <div class="px-4 lg:px-8">
         <a href="/legal/" {% if page.url == '/legal/' %} aria-current="page" {% endif %}>Legal</a>
       </div>
     </div>
@@ -17,6 +17,14 @@
       <p class="text-center text-gray-500">
         &copy; {{ site.annee }} {{ site.brandName }}</p>
     </div>
+
+    <ul class="elv-nav elv-nav-footer lo">
+	<li class="elv-nav-item lo-c"><a href="/styleguide/">Style Guide</a></li>
+	<li class="elv-nav-item lo-c">on <a href="https://www.netlify.com/" class="elv-externalexempt">Netlify</a></li>
+	<li class="elv-nav-item lo-c">Created by <a href="https://twitter.com/realglenndixon" class="elv-externalexempt">realglenndixon</a></li>
+	<li class="lo-c"></li>
+</ul>
+
   </div>
 
 </footer>

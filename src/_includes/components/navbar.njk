@@ -1,18 +1,14 @@
-<div class="{{ classes.navbar }}">
-  <nav class="flex items-center mx-auto measure">
-    <a href="/" class="p-2">
-      <svg aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
-        <path
-          d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z">
-        </path>
-      </svg>
+<div class="{{ classes.navbar }} items-center ml-auto mr-auto">
+
+    <nav class="items-center min-w-full ml-auto -mb-px lg:flex">
+    <a href="https://thedixons.net">
       <span class="sr-only">Go back to homepage</span>
     </a>
-
-    <div class="flex items-center ml-auto -mb-px">
+	<a href="https://thedixons.net"><img src="/assets/img/logo.png" alt="TheDixons logo - an old-fashioned Quaker hat" align="left" class="w-1/4 mr-2 align-middle lg:w-full"></a>
+	<p class="text-sm align-text-top lg:text-lg">The Dixons<br />A Colonial Quaker Family</p>
       {% for item in navigation.main %}
       <a {% if item.external %}rel="external" {% endif %} href="{{ item.url | safe }}"
-        class="px-1 py-6 leading-5 whitespace-no-wrap border-b-2 border-transparent focus:outline-none hover:border-cool-gray-700 focus:border-cool-gray-700 ml-6 md:ml-12 {% if page.url == item.url %}border-primary{% endif %}"
+        class="px-1 py-6 leading-5 whitespace-no-wrap border-b-2 border-transparent focus:outline-none hover:border-cool-gray-700 focus:border-cool-gray-700 text-sm lg:text-lg ml-2 md:ml-12 {% if page.url == item.url %}border-primary{% endif %}"
         {% if page.url == item.url %} aria-current="page" {% endif %}>{{ item.label }}</a>
       {% endfor %}
       {% if site.allowDarkMode %}
@@ -28,6 +24,6 @@
         <span class="sr-only">Button to switch between dark and light theme</span>
       </button>
       {% endif %}
-    </div>
-  </nav>
+    </nav>
+  </div>
 </div>

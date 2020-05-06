@@ -8,22 +8,22 @@ module.exports = {
   annee: `${year}`,
   allowDarkMode: true,
   lang: "en", // for html tag
-  title: "MF Blog Starter",
-  description: "Eleventy + Tailwind CSS blog starter",
-  url: "https://mf-blogstarter.netlify.app", // don't end with a slash /
-  brandName: "MF", // for copyright and legal page
+  title: "The Dixons",
+  description: "The Dixons - A Colonial Quaker Family",
+  url: "https://thedixons.net", // Don't end with a slash /
+  brandName: "The Dixons", // for copyright and legal page
 
   author: {
-    name: "Marc Filleul", // for posts meta and Open Graph meta (FB and Twitter)
-    email: "marc@mfmail.fr", // used in legal page
-    github: "https://github.com/marcfilleul", // used in footer
-    twitter: "https://twitter.com/marcfilleul", // used in footer
+    name: "Glenn Dixon", // For posts meta and Open Graph meta (FB and Twitter)
+    email: "donblanco@posteo.net",
+    github: "https://github.com/dixonge/thedixons-mf-11ty",
+    twitter: "https://twitter.com/realglenndixon",
   },
 
   meta_data: {
     theme_color: "#ffffff", // used in Chrome, Firefox OS and Opera
-    default_social_image: "/assets/img/featured_image.png", // for Open Graph meta
-    locale: "en_US", // for Open Graph meta
-    twitter_username: "@marcfilleul", // for Twitter Open Graph meta
+    default_social_image: "https://res.cloudinary.com/donblanco/image/upload/f_auto,q_auto/TheDixons/avatar-small.png", // For Open Graph meta
+    locale: "en_US", // For Open Graph meta
+    twitter_username: "@realglenndixon", // For Twitter Open Graph meta
   },
 };

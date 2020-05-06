@@ -1,12 +1,12 @@
 {
-  "name": "mf-blogstarter",
+  "name": "thedixons",
   "version": "1.0.0",
-  "description": "Eleventy + Tailwind CSS blog starter",
-  "author": "Marc FILLEUL",
+  "description": "TheDixons",
+  "author": "Glenn Dixon",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/marcfilleul/mf-blogstarter"
+    "url": "https://github.com/dixonge/thedixons.git"
   },
   "browserslist": [
     "defaults"

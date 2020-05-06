@@ -40,7 +40,10 @@ module.exports = function (eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(syntaxHighlight);
 
-  // Static assets to pass through
+ 	// A responsive image helper using Cloudinary - image transformation
+  eleventyConfig.addShortcode("picture", require("./src/_includes/js/picture.js"));
+
+    // Static assets to pass through
   eleventyConfig.addPassthroughCopy("src/assets");
 
   return {
